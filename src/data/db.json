@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": "c4c9",
+      "title": "vérifier les données  chargées ",
+      "startDate": "2024-10-25",
+      "description": "Données asynchrones : Lorsque vous appelez une API comme fetchPosts(), les données peuvent ne pas être encore disponibles au moment où vous essayez de les enregistrer dans la console. Si vous faites un console.log immédiatement après un appel asynchrone, il est possible que les données n'aient pas encore été renvoyées, et c'est pourquoi vous voyez un array vide au départ.",
+      "status": 1
+    },
+    {
+      "id": "4f59",
+      "title": "mardi",
+      "startDate": "2024-10-23",
+      "description": "desc",
+      "status": 1
+    },
+    {
+      "id": "8fd2",
+      "title": "data-fns",
+      "startDate": "2024-11-10",
+      "description": "date-fns fournit l' ensemble d'outils le plus complet, mais le plus simple et le plus cohérent pour manipuler les dates JavaScript dans un navigateur et Node.js.",
+      "status": 1
+    }
+  ]
+}

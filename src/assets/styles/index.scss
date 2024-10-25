@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./blog";
+@import "./contact";
+@import "./footer";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #213e4f;
+}
+
+a,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.btn-counter {
+  width: max-content;
+  padding: 10px;
+
+  button {
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.setup {
+  padding: 10px 20px;
+}
